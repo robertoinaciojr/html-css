@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.extras{
+    border-radius: 0% 100% 0% 0%;
+    position: absolute;
+    bottom: 0;
+    top: 195px;
+    right: 900px;
+    width: 500px;
+    height: 430px;
+    background-color: #017143;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    
+    color: white;
+  }
+
+
+#one {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    background: blue;
+  }
+
+  dt {
+      background: gray;
+  }

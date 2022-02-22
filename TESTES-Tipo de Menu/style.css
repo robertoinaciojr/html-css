@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.painel{
+    text-align: center;
+}
+.painel {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color: blueviolet;
+}
+
+.img-painel{
+    position: absolute;
+}
+
+.foto img{
+    width: 60%;
+    border-radius: 50%;
+    border: 6px solid rgb(201, 159, 240);
+
+}
+
+.menu{
+    margin: 20px 0px;
+    text-align: center;
+    position: relative;
+    
+}
+
+.menu a{
+    color: white;
+    opacity: 0.4;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a.select{
+    opacity: 1;
+}

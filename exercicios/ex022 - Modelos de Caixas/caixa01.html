@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{ /* box-level */
+            background-color: #069;
+            height: 46px;
+            width: 400px;
+            border-width: 5px;
+            border-style: dotted;
+            /* margin: 0; significa que todas a margem sera 0, se for 1px 2px 3px 4px, significa que o topo sera 1,direita sera 2, baixo sera 3, e esquerda sera 4. Isso é usando o modo simplificado, server tmb para padding e border*/
+            margin: 0;
+            text-align: center;
+
+            outline-width: 4px;
+            outline-style: solid;
+            outline-color: lightcoral;
+        }
+
+        a { /* inline-level */
+            
+            padding: 2px;
+            border-style: solid;
+            border-width: 3px;
+            border-color: lawngreen;
+        }
+
+        /*
+        Mudar de box-level para inline-level usar a tag display:block ou display:inline
+        */
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são box-level, mas os <a href="#">links são exemplos de caixas inline-box.</a> Vamos ver como isso funciona!</p>
+</body>
+</html>
